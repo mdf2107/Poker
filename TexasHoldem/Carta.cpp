@@ -4,32 +4,31 @@
 
 Carta::Carta()
 {
+	int valor = 0;
+	int palo = 0;
+	bool dis = true;
 }//Fin de Constructor default
 
-Carta::Carta(int val, int palo, bool disp) {
-
+Carta::Carta(int val, int pal)
+{
+	int valor = val;
+	int palo = pal;
+	bool dis = true;
 }//Fin de ConstructorCarta
-
-int Carta::getPalo(){
-
-	return palo;
-}//Fin de metodo getPalo
-
-
-int Carta::getValor() {
-
-	return valor;
-
-}//Fin de metodo getValor
-
-
-bool Carta::estaDisponible() {
-	
-	return disponible;
-}//Fin de metodo Disponible
 
 Carta::~Carta()
 {
 }
+
+int Carta::getPalo() {
+
+	return palo;
+}//Fin de metodo getPalo
+
+void Carta::setPalo(int i)
+{
+	palo = i;
+}
+
 
 

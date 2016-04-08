@@ -34,7 +34,7 @@ public:
 	Constructor personalizado para la clase Carta, recibe y asigna los valores de parámetro a las variables propias
 	de la carta, Valor, Palo y Disponible
 	*/
-	Carta(int, int, bool);
+	Carta(int, int);
 
 	~Carta();
 
@@ -55,5 +55,9 @@ public:
 	utilizada durante alguna ronda de apuesta.
 	*/
 	bool estaDisponible();
+
+	void setPalo(int);
+
+	void setValor();
 
 };//Fin de la clase Carta
