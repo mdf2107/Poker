@@ -14,6 +14,10 @@ Estudiantes: Julian , Kenneth, Milton Delgado.
 
 class Administrador
 {
+	
+/*
+Metodos y variables publicas de la clase Administrador
+*/
 
 /*
 Metodos y variables publicas de la clase Administrador
